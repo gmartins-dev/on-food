@@ -31,3 +31,7 @@ criar aplicação NEXTJS
 
 yarn run dev (para iniciar o projeto)
 
+instalar TAILWINDCSS
+https://tailwindcss.com/docs/guides/nextjs
+
+
