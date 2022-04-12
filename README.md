@@ -35,3 +35,28 @@ instalar TAILWINDCSS
 https://tailwindcss.com/docs/guides/nextjs
 
 
+## 01 Configurações iniciais do css
+
+definir variaveis padrões no css
+ex: 
+
+:root{
+    --background :"#f5f5f5";
+}
+
+
+para aplicar:
+
+body{
+    background-color: var(--background);
+}
+
+## 02 Outros topicos da aula 01:
+
+-Como criar uma pagina estatica no NextJS
+-Como criar uma pagina de url dinamica
+        -criar uma slug (variavel dinamica) ex: {city}
+
+
+
+
