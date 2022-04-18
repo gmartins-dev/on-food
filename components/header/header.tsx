@@ -16,7 +16,7 @@ export function Header() {
                 height={36}
                 alt="OnFood"
               />
-              <span>iHungry</span>
+              <span>OnFood</span>
             </a>
           </Link>
         </div>
