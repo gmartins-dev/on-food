@@ -3,6 +3,7 @@ import { Dish } from "@/components";
 import { api } from "@/services"
 import { useQuery } from "react-query"
 import { DishType } from "@/types"
+import { DishSkeleton } from "@/components";
 
 export function DishList() {
   
@@ -18,7 +19,7 @@ export function DishList() {
   return (
     <div className={Styles.list}>
       {isFetching ? (
-        <div>Loading... </div>
+        <DishSkeleton />
       ) : (
         data?.map((dish) => <Dish key={dish.id} {...dish} />)
         )}
