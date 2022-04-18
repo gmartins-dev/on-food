@@ -4,7 +4,7 @@ import Styles from "../../styles/discovery.module.css";
 
 export default function Descobrir() {
   const router = useRouter();
-  const city = router.query.city;
+  const city = router.query?.city as string;
 
   return (
     <PageTemplate>
@@ -12,7 +12,7 @@ export default function Descobrir() {
         <h1>Opções na região de {city}</h1>
         <p>Encontramos x opções</p>
         <div className={Styles.items}>
-          <DishList />
+          <DishList citySlug={city}/>
         </div>
       </div>
     </PageTemplate>

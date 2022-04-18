@@ -16,7 +16,7 @@ export function Header() {
                 height={36}
                 alt="OnFood"
               />
-              <span>OnFood</span>
+              <span>iHungry</span>
             </a>
           </Link>
         </div>
@@ -33,7 +33,7 @@ export function Header() {
             <Link href="/favoritos">
               <a>
                 <IconBookmark />
-                Favoritos
+                Favorites
               </a>
             </Link>
           </li>
