@@ -1,62 +1,34 @@
-# Imersão FrontExpert 01
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
- O layout do projeto está no arquivo `assets/OnFoodIFX.fig`.
+## Getting Started
 
- https://github.com/odanieldcs/frontexpert-imersao01
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### MINHAS ANOTAÇÕES 
-Inicio do projeto: 11/04/22
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## 00 ANTES DE COMEÇAR:
-Inicializar API no thunder client:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-1) https://api.imersaofx.danieldcs.com/cities
-2) https://api.imersaofx.danieldcs.com/deliveries?city=sao-paulo-sp
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-TOKEN: Z21hcnRpbnMxMzA5QGdtYWlsLmNvbQ==
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-instalar ultima versão do NodeJS
-instalar Yarn ---> npm install -g yarn (no console)
-instalar next gs
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-criar aplicação NEXTJS
-    yarn create next-app --typescript (no console)
-    nomear o diretorio no console
-    cd on-food (para entrar no  diretorio criado)
-    code . (para abrir o vscode)
+## Deploy on Vercel
 
-yarn run dev (para iniciar o projeto)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-instalar TAILWINDCSS
-https://tailwindcss.com/docs/guides/nextjs
-
-
-## 01 Configurações iniciais do css
-
-definir variaveis padrões no css
-ex: 
-
-:root{
-    --background :"#f5f5f5";
-}
-
-
-para aplicar:
-
-body{
-    background-color: var(--background);
-}
-
-## 02 Outros topicos da aula 01:
-
--Como criar uma pagina estatica no NextJS
--Como criar uma pagina de url dinamica
-        -criar uma slug (variavel dinamica) ex: {city}
-
-
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

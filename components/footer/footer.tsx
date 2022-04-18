@@ -1,12 +1,11 @@
-export function Footer () {
+import Styles from "./footer.module.css";
 
-        return (
-
-            <footer>
-                <p> Foooooteeerrrr </p>
-
-            </footer>
-
-        )
+export function Footer() {
+  return (
+    <footer>
+      <div className={Styles.footer}>
+        <p>@ 2022 - Imersão FrontExpert</p>
+      </div>
+    </footer>
+  );
 }
-
