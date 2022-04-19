@@ -7,7 +7,7 @@ export function Search() {
   return (
     <Menu as="div" className={Styles.search}>
       <Menu.Button>
-        Selecione uma cidade para iniciar
+       Select a city to start
         <span>
           <IconFilter />
         </span>

@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer>
       <div className={Styles.footer}>
-        <p>@ 2022 - Imersão FrontExpert</p>
+        <p>Made by @guilhermme-dev </p><p>This web application was made during the FrontExpert Immersion for study purposes only.</p>
       </div>
     </footer>
   );

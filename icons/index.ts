@@ -6,6 +6,7 @@ import IconFilter from "../public/images/icons/filter.svg";
 import IconHeart from "../public/images/icons/heart.svg";
 import IconReviews from "../public/images/icons/reviews.svg";
 import IconRestaurant from "../public/images/icons/restaurant.svg";
+import IconPacman from "../public/images/icons/pacman.svg"
 
 export {
   IconBookmark,
@@ -16,4 +17,5 @@ export {
   IconHeart,
   IconReviews,
   IconRestaurant,
+  IconPacman,
 };

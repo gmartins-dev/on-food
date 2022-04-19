@@ -11,10 +11,10 @@ export function Header() {
           <Link href="/">
             <a>
               <Image
-                src="/images/logo.png"
-                width={45}
-                height={36}
-                alt="OnFood"
+                src="/images/icons/pacman.svg"
+                width={60}
+                height={60}
+                alt="iHungryLogo"
               />
               <span>iHungry</span>
             </a>

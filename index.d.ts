@@ -1,7 +1,7 @@
 import "react";
 
 declare module "react" {
-    export type FC<P = {}> FunctionComponent<P>;
+    export type FC<P = {}> = FunctionComponent<P>;
     export interface FunctionComponent<P = {}>{
         (props: PropsWithChildren<P>, context?: any): ReactElement<any, any> | null;
         propsTypes?: WeakValidationMap<P> | undefined;
